@@ -20,4 +20,5 @@ Expandable Framework: While the current focus is on Tic Tac Toe, the underlying 
 Input your game rules for Tic Tac Toe in clear English.
 Execute the LLM translator.
 Receive pseudo-code that can guide the development or understanding of the Tic Tac Toe game.<br />
+<br />
 Join us in this exciting journey as we merge the worlds of linguistics and logic, making game development more intuitive and open-ended. Contributions, suggestions, and feedback are always welcome!
