@@ -35,9 +35,3 @@ The model isn't available immediately post-initiation.
 
 The model processing time varies based on data size, ranging from minutes to hours. Upon completion, OpenAI will dispatch an email to the registered account. Access the provided 'Fine-tuning UI' hyperlink in the email to inspect your model and obtain the Model ID.
 
-
-
-    Solution:
-
-    The model processing time varies based on data size, ranging from minutes to hours. Upon completion, OpenAI will dispatch an email to the registered account.
-    Access the provided 'Fine-tuning UI' hyperlink in the email to inspect your model and obtain the Model ID.
