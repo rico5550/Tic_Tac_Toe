@@ -20,7 +20,7 @@ Missing or invalid API key.
 
 1. **Sign Up for OpenAI**: If not done yet, register for an account with OpenAI.
 2. **Access the OpenAI Dashboard**: Post registration, head over to the OpenAI platform or dashboard.
-3. **Request API Access**: Historically, GPT-3's API access was restrictive. As of August 22, 2023, API access has been released. From the dashboard click on personal. In the drop-down menu select "View API keys".
+3. **Request API Access**: Historically, GPT-3's API access was restrictive. As of August 22, 2023, API access has been released. From the dashboard click on "personal". In the drop-down menu select "View API keys".
 4. **Retrieve Your API Key**: Here, you can view existing API keys or generate a new API key by selecting "Create new secret key". Note that once generated the key will not be displayed again.
 5. **Incorporate the API Key into Your Code**: Use this API key in your scripts or applications to interface with OpenAI's services.
 6. **Adhere to Rate Limits and Costs**: Bear in mind that API usage isn't free. Always be updated on OpenAI's pricing nuances and rate limits to avoid unexpected charges or service restrictions.
@@ -34,6 +34,7 @@ The model isn't available immediately post-initiation.
 ### Solution
 
 The model processing time varies based on data size, ranging from minutes to hours. Upon completion, OpenAI will dispatch an email to the registered account. Access the provided 'Fine-tuning UI' hyperlink in the email to inspect your model and obtain the Model ID.
+
 
 
     Solution:
