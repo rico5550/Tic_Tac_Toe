@@ -22,7 +22,7 @@ except Exception as e:
 
 # Continue with the rest of the code
 response = openai.File.create(
-  file=open("Your_Training_Date_file", "rb"),
+  file=open("data/Train_PC.jsonl", "rb"),
   purpose='fine-tune'
 )
 

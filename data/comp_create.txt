@@ -1,0 +1,50 @@
+temperature: 
+    Controls the randomness of the model's output. 
+    A value closer to 1 makes it more random, while a value closer to 0 makes it more deterministic.
+
+max_tokens: 
+    Specifies the maximum number of tokens (words, punctuation, etc.) in the generated output.
+
+top_p: 
+    Used for nucleus sampling. 
+    It specifies the cumulative probability of the top tokens to retain.
+
+frequency_penalty: 
+    Penalizes the frequency of tokens in the output. 
+    Can favor more frequent tokens (with positive values) or less frequent tokens (with negative values).
+
+presence_penalty: 
+    Similar to `frequency_penalty`, but instead of frequency, it penalizes or rewards the presence of new tokens.
+
+stop: 
+    A list of strings. The model will stop generating once any of the strings in the list appear in the output.
+
+n: 
+    Number of completions to generate for the given prompt.
+
+stream: 
+    If set to `True`, the model will send results as a stream. 
+    Useful for generating longer content.
+
+log_level: 
+    Controls the logging level. E.g., "info", "error".
+
+logprobs: 
+    Number of log probabilities to return with the generated output. 
+    Useful for understanding the model's decision-making.
+
+echo: 
+    If set to `True`, the prompt will be included in the response.
+
+expand: 
+    Specifies which role-specific instructions the model should expand automatically.
+
+return_prompt: 
+    If set to `True`, the API returns the given prompt along with the response.
+
+use_cache: 
+    Determines whether to use cached results for the same prompt.
+
+instruction: 
+    Additional instructions for the model.
+

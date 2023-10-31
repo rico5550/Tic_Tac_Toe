@@ -6,7 +6,8 @@
 
     Solution:
     Ensure your data adheres to the format required by the specific model. For our current setup, we use the davinci-002 model, which mandates the prompt-completion format.
-    For easy conversion, navigate to the tools folder. Within, you'll find the utility file "convert_format.py" that converts standard JSON prompt-response data into the .jsonl prompt-completion format.
+    For easy conversion, navigate to the tools folder. Within, you'll find the utility file "tools/convert/convert_format.py" that converts standard JSON prompt-response data into the .jsonl prompt-completion format.
+    Make sure to remove all indentation the utility file "tools/convert/remove_indents.py" can help with that.
 
 2. Absence of API Key:
     Problem:
