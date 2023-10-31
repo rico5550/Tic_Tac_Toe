@@ -56,26 +56,3 @@ response = openai.Completion.create(
 )
 
 print(response.choices[0].text.strip())
-print(response)
-
-
-# with open('data/test_input.txt', 'r') as file:
-
-#     for line in file:
-
-
-
-#         response = openai.Completion.create(
-#         model=Model_ID, # The ID of your fine-tuned model
-#         prompt=line, 
-#         temperature=0.2, # Determines the randomness of the model's output. The closer to 1.0 the more random
-#         top_p=0.2, # it specifies the cumulative probability of the top tokens to retain. Helps the model be more focused
-#         frequency_penalty=-0.2, # A penalty to apply to the frequency of tokens in the output. Can be positive (favor more frequent tokens) or negative (favor less frequent tokens).
-#         stop=['.'], # indicates where to stop generating
-#         max_tokens=50, # maxes out the size of the response to 50 tokens
-#         n=1, # number of responses generated
-#         echo = True # the prompt is printed prior to the models response
-#         )
-
-#         print('Response: ', response.choices[0].text.strip())
-# print(response)
