@@ -1,5 +1,5 @@
-from tools.parameter_values.value_generator import Value_Generator
-from tools.parameter_values.eval_response import Evaluate_Response
+from value_generator import Value_Generator
+from eval_response import Evaluate_Response
 from tqdm import tqdm
 import openai
 
